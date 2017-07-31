@@ -1,0 +1,31 @@
+{
+  "name": "flipflop",
+  "version": "1.0.0",
+  "description": "Small app to compare 2 products",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node_modules/.bin/nodemon index.js",
+    "test": "node_modules/.bin/mocha test --reporter spec --timeout 20000 --recursive",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haodt/flipflop.git"
+  },
+  "author": "haodt1990@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haodt/flipflop/issues"
+  },
+  "homepage": "https://github.com/haodt/flipflop#readme",
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2",
+    "mochawesome": "^2.2.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
