@@ -7,6 +7,14 @@ const app = express();
  * Serve client build static assets
  */
 app.use('/', express.static(path.resolve(__dirname, 'client', 'build')));
+app.get('/', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+});
+app.all('/*', function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'X-Requested-With');
+  next();
+});
 
 /**
  * Lookup product data based on url
