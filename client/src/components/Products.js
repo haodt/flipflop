@@ -86,7 +86,7 @@ const Products = ({isFetching,criteria,error,products,remove,sort}) => {
                       <li className="list-group-item" key={r.by + r.title}>
                         <b>{r.by} - <i className="now-ui-icons ui-2_favourite-28"></i> {r.stars}</b>
                         <br/>
-                        {r.content}
+                        <span className="w-100">{r.content}</span>
                       </li>
                     )}
                   </ul>
