@@ -1,5 +1,12 @@
 # FlipFlop
-Small app to compare 2 products from lazada.sg
+Small app to compare multiple products from lazada.sg (sort by price, rating, reviews). Only work with product page url.
+
+Example:
+
+- https://www.lazada.sg/xiaomi-redmi-note-4-3gb-32gb-14511333.html
+- http://www.lazada.sg/apple-iphone-7-plus-256gb-jet-black-8634330.html
+- https://www.lazada.sg/xiaomi-redmi-note-4-3gb-32gb-14511333.html
+- http://www.lazada.sg/samsung-galaxy-s8-64gb-midnight-black-18155589.html 
 
 # Development
 
