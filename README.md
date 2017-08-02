@@ -8,6 +8,8 @@ Example:
 - https://www.lazada.sg/xiaomi-redmi-note-4-3gb-32gb-14511333.html
 - http://www.lazada.sg/samsung-galaxy-s8-64gb-midnight-black-18155589.html 
 
+![Demo](https://github.com/haodt/flipflop/raw/master/flipflop.gif)
+
 # Development
 
 - Server will listen on 3001 while react's webpack dev server is on 3000
