@@ -61,7 +61,7 @@ const Products = ({isFetching,criteria,error,products,remove,sort}) => {
                   <div className="card-block pb-0">
                     <h5 className="card-title">{product.name}</h5>
                     <p>
-                      <i className="now-ui-icons ui-2_favourite-28"></i> {product.scores.rating}
+                      <i className="now-ui-icons ui-2_favourite-28"></i> {product.scores.rating.toFixed(2)}
                     </p>
                     <p>
                       <b>Warranty</b>
